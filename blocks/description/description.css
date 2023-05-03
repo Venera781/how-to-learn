@@ -1,0 +1,8 @@
+.description {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding-top: 100px;
+  justify-content: center;
+  box-sizing: border-box;
+}
