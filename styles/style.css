@@ -23,7 +23,6 @@
 
 .header__title {
   display: flex;
-  position: relative;
   justify-content: start;
   margin: 0 auto 0 64px;
   max-width: 730px;
@@ -93,12 +92,10 @@
 }
 
 .logo_place_footer {
-  display: flex;
   background-image: url(../images/logo_place_footer.svg);
 }
 
 .description {
-  display: flex;
   width: 100%;
   padding-top: 100px;
   justify-content: center;
@@ -166,8 +163,7 @@
 }
 
 .section-title {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
@@ -180,8 +176,7 @@
 }
 
 .section-subtitle {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   width: 60%;
   line-height: 34px;
   margin: 20px auto 0;
@@ -212,11 +207,10 @@
 }
 
 .table__cell {
-  display: flex;
-  position: relative;
   width: 250px;
   flex-direction: column;
   box-sizing: border-box;
+  list-style: none;
 }
 
 .table__cell_theme_dark {
